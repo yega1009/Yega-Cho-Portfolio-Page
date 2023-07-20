@@ -204,6 +204,10 @@ main {
         margin-bottom: 2vw;
     }
 
+    .projects {
+        width: 100%;
+    }
+
     .first_project_image {
         margin: 0 0 20px;
     }
