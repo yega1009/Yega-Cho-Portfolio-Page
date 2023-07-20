@@ -27,7 +27,7 @@ that I have worked on, evaluate coding skills, and view my contact information.
 
 ## Credits
 
-- Special Attribute to Flaticon for the background image
+- Special Attribute to Flaticon for the placeholder image
 <a href="https://www.flaticon.com/free-icons/frames" title="frames icons">Frames icons created by Freepik - Flaticon</a>
 
 N/A
