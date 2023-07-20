@@ -1,5 +1,5 @@
 :root {
-    --background: #3f0101;
+    --background: #000000;
     --text: #d4e4f3f6;
 }
 
@@ -38,22 +38,28 @@ nav a {
     background-image: url(../images/background.jpg);
     height: 200px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 figcaption {
     font-size: 130%;
     font-weight: bold;
-    float: left;
     padding: 10px 10px;
-    margin-top: 50px;
+    margin: auto;
     background-color: var(--background);
     color: var(--text);
+}
+
+.profile-picture {
+    border-radius: 50px;
+    padding: 20px;
+    margin: auto;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .section {
@@ -66,8 +72,12 @@ main {
     padding-right: 3vw;
     border-right: solid 2px var(--background);
     margin-right: 2vw;
-    min-width: 10%;
-    max-width: 10%;
+    min-width: 15%;
+    max-width: 15%;
+}
+
+.section p {
+    line-height: 120%;
 }
 
 .description {
@@ -79,7 +89,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 80%;
+    width: 70%;
 }
 
 .first_project {
@@ -91,8 +101,9 @@ main {
 .first_project_link {
     display: flex;
     width: 100%;
+    height: 100%;
     margin: 20px;
-    border: solid 3px var(--background);
+    border: solid 5px var(--background);
 }
 
 .caption_1 {
@@ -111,8 +122,9 @@ main {
 .other_projects_link {
     display: flex;
     width: 100%;
+    height: 100%;
     margin: 20px;
-    border: solid 3px var(--background);
+    border: solid 5px var(--background);
 }
 
 .caption_2 {
@@ -141,4 +153,52 @@ img {
 .section li a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    header,
+    figcaption {
+        background-color: #3f0101;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    header,
+    figcaption {
+        background-color: #2a002d;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section h2 {
+        border-right: none;
+        border-bottom: solid 2px var(--background);
+        margin-bottom: 2vw;
+    }
+
+    .other_projects {
+        flex-direction: column;
+    }
+
+    main ul {
+        flex-direction: column;
+        line-height: 2;
+        text-align: center;
+    }
 }
