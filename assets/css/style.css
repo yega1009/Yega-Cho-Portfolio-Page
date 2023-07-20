@@ -52,7 +52,7 @@ nav a {
 }
 
 figcaption {
-    font-size: 130%;
+    font-size: 180%;
     font-weight: bold;
     padding: 10px 10px;
     margin: auto;
@@ -79,7 +79,7 @@ main {
 }
 
 .section h2 {
-    font-size: 150%;
+    font-size: 180%;
     padding-right: 3vw;
     border-right: solid 2px var(--background);
     margin-right: 2vw;
@@ -118,7 +118,7 @@ main {
     border: solid 5px var(--background);
 }
 
-.caption_1 {
+.topic-1 {
     position: absolute;
     font-size: 100%;
     margin: auto;
@@ -136,7 +136,8 @@ main {
     border: solid 5px var(--background);
 }
 
-.caption_2 {
+.topic-2,
+.topic-3 {
     position: absolute;
     font-size: 100%;
     margin: auto;
