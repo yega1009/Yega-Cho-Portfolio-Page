@@ -114,7 +114,7 @@ main {
     display: flex;
     width: 100%;
     height: 100%;
-    margin: 20px;
+    margin: 10px;
     border: solid 5px var(--background);
 }
 
@@ -132,8 +132,7 @@ main {
 .other_projects_image {
     display: flex;
     width: 100%;
-    height: 100%;
-    margin: 20px;
+    margin: 10px;
     border: solid 5px var(--background);
 }
 
@@ -168,6 +167,10 @@ main {
     figcaption {
         background-color: #3f0101;
     }
+
+    .section h2 {
+        font-size: 120%;
+    }
 }
 
 /* Changes the styling and structure of the webpage when resized to 576px or less  */
@@ -180,12 +183,12 @@ main {
 
     header {
         flex-direction: column;
-        text-align: center;
     }
 
     nav ul {
         flex-direction: column;
         line-height: 2;
+        text-align: end;
     }
 
     .section {
@@ -195,18 +198,27 @@ main {
     }
 
     .section h2 {
+        font-size: 150%;
         border-right: none;
         border-bottom: solid 2px var(--background);
         margin-bottom: 2vw;
     }
 
+    .first_project_image {
+        margin: 0 0 20px;
+    }
+
     .other_projects {
         flex-direction: column;
+
+    }
+
+    .other_projects_image {
+        margin: 0 0 20px;
     }
 
     main ul {
         flex-direction: column;
         line-height: 2;
-        text-align: center;
     }
 }
