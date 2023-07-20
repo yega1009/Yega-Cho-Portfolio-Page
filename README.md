@@ -3,7 +3,7 @@
 This is my professional portfolio that showcases my projects and skills in various coding languages.
 
 ## Link to Deployed Application
-
+<a href="https://yega1009.github.io/Yega-Cho-Portfolio-Page/">Yega Cho's Portfolio</a>
 
 ## Description
 
