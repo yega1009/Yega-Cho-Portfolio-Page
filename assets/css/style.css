@@ -1,0 +1,41 @@
+:root {
+    --header: #011f3a;
+    --text: #d4e4f3f6;
+}
+
+body {
+    font-family: Arial;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: var(--header);
+    color: var(--text);
+}
+
+header h1 {
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.background {
+    background-image: url(../images/image-1.png);
+    height: 100px;
+    width: 100%;
+}
