@@ -1,5 +1,5 @@
 :root {
-    --header: #011f3a;
+    --background: #3f0101;
     --text: #d4e4f3f6;
 }
 
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    background-color: var(--header);
+    background-color: var(--background);
     color: var(--text);
 }
 
@@ -35,7 +35,110 @@ nav a {
 }
 
 .background {
-    background-image: url(../images/image-1.png);
-    height: 100px;
+    background-image: url(../images/background.jpg);
+    height: 200px;
     width: 100%;
+}
+
+figcaption {
+    font-size: 130%;
+    font-weight: bold;
+    float: left;
+    padding: 10px 10px;
+    margin-top: 50px;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    margin: 25px;
+}
+
+.section h2 {
+    font-size: 150%;
+    padding-right: 3vw;
+    border-right: solid 2px var(--background);
+    margin-right: 2vw;
+    min-width: 10%;
+    max-width: 10%;
+}
+
+.description {
+    padding-left: 10px;
+    width: 80%;
+}
+
+.projects {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.first_project {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.first_project_link {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    border: solid 3px var(--background);
+}
+
+.caption_1 {
+    position: absolute;
+    font-size: 100%;
+    margin: auto;
+}
+
+.other_projects {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.other_projects_link {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    border: solid 3px var(--background);
+}
+
+.caption_2 {
+    position: absolute;
+    font-size: 100%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section ul {
+    display: flex;
+    min-width: 80%;
+    justify-content: space-evenly;
+}
+
+.section li {
+    font-size: 110%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section li a {
+    text-decoration: none;
+    color: black;
 }
