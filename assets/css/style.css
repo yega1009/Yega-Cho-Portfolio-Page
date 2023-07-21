@@ -119,7 +119,7 @@ main {
 }
 
 .first_project_image:hover {
-    border-color: #7d7d7d;
+    border-color: #838383;
 }
 
 .first_project_image:active {
@@ -145,7 +145,7 @@ main {
 }
 
 .other_projects_image:hover {
-    border-color: #7d7d7d;
+    border-color: #838383;
 }
 
 .other_projects_image:active {
