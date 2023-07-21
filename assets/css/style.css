@@ -118,6 +118,14 @@ main {
     border: solid 5px var(--background);
 }
 
+.first_project_image:hover {
+    border-color: #7d7d7d;
+}
+
+.first_project_image:active {
+    font-size: 105%;
+}
+
 .topic-1 {
     position: absolute;
     font-size: 100%;
@@ -134,6 +142,14 @@ main {
     width: 100%;
     margin: 10px;
     border: solid 5px var(--background);
+}
+
+.other_projects_image:hover {
+    border-color: #7d7d7d;
+}
+
+.other_projects_image:active {
+    font-size: 105%;
 }
 
 .topic-2,
@@ -179,7 +195,7 @@ main {
 
     header,
     figcaption {
-        background-color: #2a002d;
+        background-color: #411245;
     }
 
     header {
