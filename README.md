@@ -25,6 +25,11 @@ that I have worked on, evaluate coding skills, and view my contact information.
 - By clicking on the images in the content of the "Work" section, users are directed to the deployed application of the projects.
 - By clicking on "Github" and "LinkedIn" in the "Contact Me" section, users are directed to my github page and linkedin profile page.
 
+## Screenshot of the Website
+
+![Screenshot 1](./assets/images/image-top.png)
+![Screenshot 2](./assets/images/image-bottom.png)
+
 ## Credits
 
 - Special Attribute to Flaticon for the placeholder image
